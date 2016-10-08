@@ -8,9 +8,13 @@ The purpose of this Web service manager is to show how we can create our own cus
 
 ## Features
 •	Synchronous request using semaphore.
+
 •	Single method can be use for GET/POST method.
+
 •	Basic Authentication.
+
 •	Facebook Post.
+
 •	Twitter Post.
 
 ## Basic usage
