@@ -27,7 +27,7 @@ You have to follow the below steps:
 ## Implementation
 
 ### Ex.  Basic Auth Call .
-
+```objective-c
     [SDWebServiceManager initWithWebServiceJSON:loginDict onCompletion:^(id dataDict,NSError *error,BOOL success){
 
             if(!error){
@@ -37,21 +37,21 @@ You have to follow the below steps:
             }else
                 NSLog(@"%@",error.localizedDescription);
         }];
-
+```
 ### Ex.  POST Method
-
+```objective-c
     NSDictionary *tokenDict = [[NSDictionary alloc] initWithObjectsAndKeys:@"value",@"key",NULL];
 
     NSDictionary *resultDataDict = [SDWebServiceManager sendSynchronousRequestWithUrl:@"urlstring" Method:@"POST" andData:tokenDict];
     NSLog(@"result = %@",resultDataDict);
-
+```
 
 
 ### Ex. Get Method
-
+```objective-c
     NSDictionary *resultData = [SDWebServiceManager sendSynchronousRequestWithUrl:@"urlstring" Method:nil andData:nil];
     NSLog(@"result = %@",resultData);
-
+```
 
 ## Requirements
 •	iOS8 or higher
