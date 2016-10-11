@@ -4,7 +4,7 @@ SDWebServiceManager is an easy way to implement synchronous request to web serve
 ## Installation
 
 Just drag SDWebServiceManager.h and SDWebServiceManager.m files in your application from the project.
-The purpose of this Web service manager is to show how we can create our own custom calendar with minimum code.
+The purpose of this Web service manager is to use webservice by calling methods.
 
 ## Features
 •	Synchronous request using semaphore.
@@ -65,5 +65,5 @@ You have to follow the below steps:
 	Stark digital Media Services Pvt. Ltd.
 
 ## License
-SDCalendar is released under the MIT license. See the LICENSE file for more info.
+SDWebServiceManager is released under the MIT license. See the LICENSE file for more info.
 
