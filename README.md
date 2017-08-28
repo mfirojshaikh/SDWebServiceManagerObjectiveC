@@ -62,7 +62,7 @@ You have to follow the below steps:
 •	Automatic Reference Counting (ARC)
 
 ## Author
-	Stark digital Media Services Pvt. Ltd.
+	Firoj Shaikh.
 
 ## License
 SDWebServiceManager is released under the MIT license. See the LICENSE file for more info.
